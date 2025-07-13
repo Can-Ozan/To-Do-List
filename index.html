@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profesyonel Yapılacaklar Listesi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div class="container">
+        <div class="header">
+            <h1><i class="fas fa-tasks"></i> Yapılacaklar Listesi</h1>
+            <button id="theme-toggle" class="theme-btn">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+        <div class="todo-app">
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Yeni görev ekle...">
+                <button onclick="addTask()"><i class="fas fa-plus"></i> Ekle</button>
+            </div>
+            <ul id="list-container">
+                <!-- Görevler buraya eklenecek -->
+            </ul>
+            <div class="controls">
+                <div class="task-count">
+                    <span id="pending-count">0</span> görev kaldı
+                </div>
+                <div class="filters">
+                    <span class="filter active" data-filter="all">Tümü</span>
+                    <span class="filter" data-filter="pending">Aktif</span>
+                    <span class="filter" data-filter="completed">Tamamlanmış</span>
+                </div>
+                <button class="clear-btn" onclick="clearCompleted()">
+                    <i class="fas fa-trash"></i> Temizle
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Particles.js kütüphanesi -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
