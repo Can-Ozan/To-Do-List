@@ -46,7 +46,7 @@ Bu proje MIT lisansı altında lisanslanmıştır - detaylar için [LICENSE](LIC
 
 ---
 
-Bu projeyi beğendiyseniz yıldız vermeyi unutmayın ⭐! Sorularınız veya geri bildirimleriniz için [issue](https://github.com/kullaniciadi/repo-adi/issues) açabilirsiniz.
+Bu projeyi beğendiyseniz yıldız vermeyi unutmayın ⭐! Sorularınız veya geri bildirimleriniz için [issue](https://github.com/Can-Ozan/E-Ticaret-Sitesi/issues) açabilirsiniz.
 
 ## İletişim
 E-Posta: yusufcanozan9@gmail.com
